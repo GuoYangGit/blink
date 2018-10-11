@@ -1,0 +1,25 @@
+/* rpx:图片，会随着机型的尺寸变化
+ * px:字体，不会随着机型的尺寸变化
+ */
+.container {
+  /* 自适应宽度 */
+  display: inline-flex;
+  flex-direction: row;
+  padding: 10rpx;
+}
+
+/* 子元素选择器 */
+
+.container image {
+  width: 32rpx;
+  height: 28rpx;
+}
+
+.container text {
+  font-size: 24rpx;
+  line-height: 24rpx;
+  color: #bbb;
+  position: relative;
+  bottom: 10rpx;
+  left: 6rpx;
+}

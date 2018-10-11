@@ -1,0 +1,8 @@
+/* 
+ * 小程序会在每个页面外部包裹一层page标签
+ * 这样就可以定义一些全局样式
+ */
+page{
+  font-family: "PingFangSC-Thin";
+  font-size: 32rpx;
+}

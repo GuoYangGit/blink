@@ -1,0 +1,28 @@
+/* 
+ * 复用css样式文件 
+ * 在需要的wxss样式文件中可以通过@import "文件路径"导入
+ */
+.classic-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .classic-img {
+    width: 750rpx;
+    height: 500rpx;
+  }
+  
+  .tag {
+    width: 46rpx;
+    height: 142rpx;
+    position: relative;
+    right: 310rpx;
+    bottom: 58rpx;
+  }
+  
+  .content {
+    font-size: 36rpx;
+    max-width: 550rpx;
+  }
+  

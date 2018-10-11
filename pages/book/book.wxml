@@ -1,0 +1,19 @@
+<!-- pages/book/book.wxml -->
+<!-- block类似于android中的listview，item为books中的元素，默认微信小程序命名为item，我们可以通过wx:for-item="itemName"来指定别名 -->
+<view wx:if="{{!searching}}" class="container">
+    <view class="header">
+        <view class="box" bind:tap="onSearching">
+            <image src="/images/icon/search.png" />
+            <text>搜索书籍</text>
+        </view>
+    </view>
+    <view class="sub-container">
+        <image class="head-img" src="/images/book/quality.png" />
+        <view class="books-container">
+            <block wx:for="{{books}}" wx:key="id">
+                <v-book book="{{item}}" />
+            </block>
+        </view>
+    </view>
+</view>
+<v-search more="{{more}}" bind:cancel="onCancel" wx:else />
