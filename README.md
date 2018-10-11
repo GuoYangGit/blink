@@ -1,6 +1,6 @@
 # 关于微信小程序的学习总结
 
->引言:微信小程序的开发文档[点我](https://developers.weixin.qq.com/miniprogram/dev/index.html)
+> 引言:微信小程序的开发文档[点我](https://developers.weixin.qq.com/miniprogram/dev/index.html)
 
 ## 基础知识  
 
@@ -534,7 +534,7 @@
     1. 可以return
     2. 解决了回调嵌套的问题(俗称的地狱回调)
 
-## WXS
+## WXS
 
 > **WXS**(`WeiXin Script`)是小程序的一套脚本语言，结合 *WXML*，可以构建出页面的结构。[关于WXS具体介绍](https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxs/index.html?search-key=wxs)
 
@@ -604,4 +604,4 @@
 
 - css样式复用
 
-    我们可以创建一个通用的 `wxss` 样式文件，在需要复用的组件或者 `page` 中使用 `@import "..通用样式路径";` 来进行复用
+    我们可以创建一个通用的 `wxss` 样式文件，在需要复用的组件或者 `page` 中使用 `@import "..通用样式路径";` 来进行复用
